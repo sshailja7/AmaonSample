@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<suite name="Amazon_Automation" verbose="2">
+
+
+ <test enabled="true" name="amazon-samples" preserve-order="true">
+	<classes>
+	
+		<class name="sampleTests.LoginTest">
+			<methods>
+				<include name="testLogin" />
+				<include name="testAddCart" />
+				<include name="testValidateItems" />
+				<include name="testSaveLater" /> 
+				<include name="testLogout"/>
+				
+
+			</methods>
+			
+		</class>
+		
+		
+	</classes>
+			
+ </test>
+
+   
+ </suite>
+  

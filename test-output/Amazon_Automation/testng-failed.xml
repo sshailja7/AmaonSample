@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [Amazon_Automation]">
+  <test name="amazon-samples(failed)">
+    <classes>
+      <class name="sampleTests.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="testLogout"/>
+        </methods>
+      </class> <!-- sampleTests.LoginTest -->
+    </classes>
+  </test> <!-- amazon-samples(failed) -->
+</suite> <!-- Failed suite [Amazon_Automation] -->
